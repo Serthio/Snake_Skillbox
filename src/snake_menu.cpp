@@ -27,7 +27,8 @@ SnakeMenu::SnakeMenu(QWidget *parent) : QWidget(parent),
         "W A S D - WASD\n"
         "P - Пауза\n"
         "ESC - Выход в меню\n"
-        "SPACE - Перезапуск",
+        "SPACE - Перезапуск\n"
+        "Границы экрана - Телепортация",
         this
     );
     controlsLabel->setAlignment(Qt::AlignCenter);
